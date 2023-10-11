@@ -87,4 +87,9 @@ Réponse de 10.10.10.213 : octets=32 temps=5 ms TTL=128
  10.10.10.213          40-c2-ba-10-d5-74     dynamique
 
  4. Petit chat privé
+
+ 🌞 Visualiser la connexion en cours
+
+ [nc.exe]
  
+  TCP    10.33.48.39:139        0.0.0.0:0              LISTENING
