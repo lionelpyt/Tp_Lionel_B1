@@ -69,4 +69,22 @@ Carte Ethernet Ethernet :
    Masque de sous-réseau. . . . . . . . . : 255.255.255.0
 
    Passerelle par défaut. . . . . . . . . :
-   
+
+   🌞 Vérifier que les deux machines se joignent
+
+Envoi d’une requête 'Ping'  10.10.10.213 avec 32 octets de données :
+
+Réponse de 10.10.10.213 : octets=32 temps=4 ms TTL=128
+
+Réponse de 10.10.10.213 : octets=32 temps=4 ms TTL=128
+
+Réponse de 10.10.10.213 : octets=32 temps=4 ms TTL=128
+
+Réponse de 10.10.10.213 : octets=32 temps=5 ms TTL=128
+
+🌞 Déterminer l'adresse MAC de votre correspondant
+
+ 10.10.10.213          40-c2-ba-10-d5-74     dynamique
+
+ 4. Petit chat privé
+ 
