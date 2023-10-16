@@ -18,27 +18,22 @@ Adresse IP : inexistante
 ```
 
 🌞 Affichez votre gateway
-
+```
 commande : ipconfig
-
 Adresse IP passerelle : 10.33.51.254
-
+```
 🌞 Déterminer la MAC de la passerelle
-
+```
 commande : arp -a
-
 Adresse MAC : 00-50-56-e3-9f-8c
-
+```
 🌞 Trouvez comment afficher les informations sur une carte
-
- IP
-
+```
 Les étapes:
 
 1) Parametre WIFI
-
 2) Propriété du matériel
-
+```
 2. Modifications des informations
 
 A. Modification d'adresse IP (part 1)
