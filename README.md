@@ -126,3 +126,43 @@ Réponse de 192.168.137.2 : Impossible de joindre l’hôte de destination.
 Statistiques Ping pour 1.1.1.1:
     Paquets : envoyés = 4, reçus = 3, perdus = 1 (perte 25%)
 ```
+🌞 Prouver que la connexion Internet passe bien par l'autre PC
+
+III. Manipulations d'autres outils/protocoles côté client
+
+1. DHCP
+
+🌞Exploration du DHCP, depuis votre PC
+```
+ipconfig /all
+l'adresse IP du serveur DHCP du réseau WiFi YNOV : 10.33.51.254
+```
+
+🌞 Trouver l'adresse IP du serveur DNS que connaît votre ordinateurre
+```
+nslookup
+Serveurs DNS : 10.33.10.2
+```
+```
+Pour google :
+
+PS C:\Users\lione> nslookup google.com 8.8.8.8
+Serveur :   dns.google
+Address:  8.8.8.8
+
+Réponse ne faisant pas autorité :
+Nom :    google.com
+Addresses:  2a00:1450:4007:80c::200e
+          172.217.20.174
+
+pour ynov.com :
+
+  reverse lookup : 
+  
+  nslookup 231.31.113.12 8.8.8.8 :
+  ne trouve pas
+  nslookup 78.34.2.17 8.8.8.8
+  78.34.2.17
+```
+🌞 Utilisez le pour observer les trames qui circulent entre vos deux carte Ethernet. Mettez en évidence :
+
