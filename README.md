@@ -5,27 +5,46 @@ I.Exploration en solo
 1. Affichage d'informations sur la pile TCP/IP locale
 
 🌞 Affichez les infos des cartes réseau de votre PC
+```
 commande : ipconfig /all
+
 WIFI :
+
 Nom : MediaTek Wi-Fi 6 MT7921 Wireless LAN Card
+
 Adresse MAC : CC-5E-F8-6E-4B-33
+
 Adresse IP : 10.33.48.39
+
 ETHERNET:
+
 Nom : Realtek PCIe GbE Family Controller
+
 Adresse MAC : 08-8F-C3-FE-EA-EE
+
 Adresse IP : inexistante
+```
 
 🌞 Affichez votre gateway
+
 commande : ipconfig
+
 Adresse IP passerelle : 10.33.51.254
 
 🌞 Déterminer la MAC de la passerelle
+
 commande : arp -a
+
 Adresse MAC : 00-50-56-e3-9f-8c
 
-🌞 Trouvez comment afficher les informations sur une carte IP
+🌞 Trouvez comment afficher les informations sur une carte
+
+ IP
+
 Les étapes:
+
 1) Parametre WIFI
+
 2) Propriété du matériel
 
 2. Modifications des informations
@@ -37,9 +56,13 @@ A. Modification d'adresse IP (part 1)
 Carte réseau sans fil Wi-Fi :
 
    Suffixe DNS propre à la connexion. . . :
+   
    Adresse IPv6 de liaison locale. . . . .: fe80::9afb:ea9a:fa9c:f7e6%16
+
    Adresse IPv4. . . . . . . . . . . . . .: 10.33.48.10
+
    Masque de sous-réseau. . . . . . . . . : 255.255.252.0
+
    Passerelle par défaut. . . . . . . . . : 10.33.51.254
 
   🌞 Il est possible que vous perdiez l'accès internet.
@@ -93,3 +116,25 @@ Réponse de 10.10.10.213 : octets=32 temps=5 ms TTL=128
  [nc.exe]
  
   TCP    10.33.48.39:139        0.0.0.0:0              LISTENING
+
+  🌞 Pour aller un peu plus loin
+
+  
+  PS C:\Users\lione\Downloads\netcat-win32-1.11\netcat-1.11> ping 192.168.137.1
+
+Envoi d’une requête 'Ping'  192.168.137.1 avec 32 octets de données :
+Réponse de 192.168.137.1 : octets=32 temps=8 ms TTL=128
+Réponse de 192.168.137.1 : octets=32 temps=4 ms TTL=128
+Réponse de 192.168.137.1 : octets=32 temps=4 ms TTL=128
+Réponse de 192.168.137.1 : octets=32 temps=4 ms TTL=128
+
+PS C:\Users\lione\Downloads\netcat-win32-1.11\netcat-1.11> ping 1.1.1.1
+
+Envoi d’une requête 'Ping'  1.1.1.1 avec 32 octets de données :
+Réponse de 192.168.137.2 : Impossible de joindre l’hôte de destination.
+Délai d’attente de la demande dépassé.
+Réponse de 192.168.137.2 : Impossible de joindre l’hôte de destination.
+Réponse de 192.168.137.2 : Impossible de joindre l’hôte de destination.
+
+Statistiques Ping pour 1.1.1.1:
+    Paquets : envoyés = 4, reçus = 3, perdus = 1 (perte 25%)
