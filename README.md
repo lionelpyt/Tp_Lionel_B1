@@ -7,21 +7,13 @@ I.Exploration en solo
 🌞 Affichez les infos des cartes réseau de votre PC
 ```
 commande : ipconfig /all
-
 WIFI :
-
 Nom : MediaTek Wi-Fi 6 MT7921 Wireless LAN Card
-
 Adresse MAC : CC-5E-F8-6E-4B-33
-
 Adresse IP : 10.33.48.39
-
 ETHERNET:
-
 Nom : Realtek PCIe GbE Family Controller
-
 Adresse MAC : 08-8F-C3-FE-EA-EE
-
 Adresse IP : inexistante
 ```
 
