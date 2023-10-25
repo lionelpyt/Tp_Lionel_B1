@@ -79,6 +79,11 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 
 🌞**Donnez un accès internet à vos machines** - config clients
 ```
+commande pour jhon :
+ip route add default via 10.3.1.254 dev enp0s3
+pour marcel :
+ip route add default via 10.3.2.254 dev enp0s8
+
 Depuis Jhon :
 [lionel@localhost ~]$ ping 8.8.8.8
 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
