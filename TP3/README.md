@@ -69,6 +69,7 @@ Marcel vers Jhon :
 🌞**Donnez un accès internet à vos machines** - config routeur
 
 ```
+Depuis le routeur :
 [lionel@localhost ~]$ ping 8.8.8.8
 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 64 bytes from 8.8.8.8: icmp_seq=1 ttl=114 time=17.5ms 
@@ -78,6 +79,7 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 
 🌞**Donnez un accès internet à vos machines** - config clients
 ```
+Depuis Jhon :
 [lionel@localhost ~]$ ping 8.8.8.8
 PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 64 bytes from 8.8.8.8: icmp_seq=1 ttl=113 time=18.6 ms
@@ -85,6 +87,7 @@ PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
 64 bytes from 8.8.8.8: icmp_seq=3 ttl=113 time=19.1 ms
 ```
 ```
+Depuis Jhon :
 [lionel@localhost ~]$ ping google.com
 PING google.com (142.250.179.110) 56(84) bytes of data.
 64 bytes from par21s20-in-f14.1e100.net (142.250.179.110): icmp_seq=1 ttl=115 time=22.4 ms
@@ -96,7 +99,7 @@ PING google.com (142.250.179.110) 56(84) bytes of data.
 rtt min/avg/max/mdev = 18.434/20.115/22.422/1.687 ms
 ```
 🌞**Analyse de trames**
-Marcel vers Jhon
+Marcel vers Jhon :
 | ordre | type trame | IP source            | MAC source                | IP destination | MAC destination |     |
 | ----- | ---------- | -------------------- | ------------------------- | -------------- | --------------- | --- |
 | 1     | ping       | 10.3.1.254           | 08:00:27:e1:f8:9a         | 10.3.1.11      |08:00:27:7e:27:fb|     |
