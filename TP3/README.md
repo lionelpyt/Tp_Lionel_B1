@@ -6,7 +6,8 @@
 Jhon : 10.3.1.11
 Marcel : 10.3.1.12
 
-```[lionel@localhost ~]$ ping 10.3.1.11
+```
+[lionel@localhost ~]$ ping 10.3.1.11
 PING 10.3.1.11 (10.3.1.11) 56(84) bytes of data.
 64 bytes from 10.3.1.11: icmp_seq=1 ttl=64 time=1.91 ms
 64 bytes from 10.3.1.11: icmp_seq=2 ttl=64 time=1.52 ms
@@ -24,7 +25,6 @@ Table ARP :
 
 adresse mac de jhon : 08:00:27:7e:27:fb
 adresse mac de Marcel : 08:00:27:d5:5f:cc
-
 ```
 
 ## 2. Analyse de trames
