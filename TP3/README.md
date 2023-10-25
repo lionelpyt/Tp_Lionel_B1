@@ -34,7 +34,7 @@ adresse mac de Marcel : 08:00:27:d5:5f:cc
 commande : sudo tcpdump
 
 15:27:06.485682 IP localhost.localdomain.ssh > 10.3.1.1.64427: Flags [P.], seq 2997075699:2997075759, ack 2398252934, win 501, length 60
-
+```
 🌞**Ajouter les routes statiques nécessaires pour que `john` et `marcel` puissent se `ping`**
 ```
 [lionel@localhost ~]$ ip route show
